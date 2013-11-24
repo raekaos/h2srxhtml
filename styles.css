@@ -99,28 +99,7 @@ body > div {
 }
 
 
-
-.sidefoot {
-    background-color: #2F4F4F;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;  
-    margin-top: 5px;
-    height: 60px;
-
-}
-
-.sidefoot > p {
-    display: inline; 
-    float: right;
-    text-align: right;
-    padding: 0;
-    margin: 20px 20px 0px 0px;
-    font-size: 0.8em;
- 
-}
-
 h3 {
-    display: relative;
     text-align: center;
     margin: auto;
     margin-top: 0px;
@@ -131,7 +110,6 @@ h3 {
 }
 
 #xhtmltable {
-    display: relative;
     margin: auto;
     width: 75%;
     border-collapse: collapse;
@@ -182,4 +160,35 @@ h3 {
 
 #tablefoot {
     font-weight: bold;
+}
+
+
+
+.sidefoot {
+    background-color: #2F4F4F;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;  
+    margin-top: 5px;
+    height: 60px;
+
+}
+
+.sidefoot > p {
+    display: inline; 
+    float: right;
+    text-align: right;
+    padding: 0;
+    margin: 20px 20px 0px 0px;
+    font-size: 0.8em;
+ 
+}
+
+
+#w3cimg {
+    display: relative;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+
+    
 }
