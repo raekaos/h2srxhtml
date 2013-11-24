@@ -1,0 +1,185 @@
+/* 
+    Created on : 21.11.2013, 19:52:55
+    Author     : raekaos
+*/
+
+
+
+
+* {
+    /*border: 1px blue dotted;*/
+    font-family: sans-serif;  
+    color: #DCDCDC;    
+}
+
+
+html {
+    background-color: #DCDCDC;   
+
+}
+
+
+body > div {
+    width: 90%;
+    margin: auto;
+
+}
+
+
+.sideheader {
+    background-color: #2F4F4F;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    margin-bottom: 5px;
+    height:60px;
+
+    
+}
+
+.brand {
+    display: inline;
+    float: left;
+    height: 35px;
+    position: relative;
+    margin: 0px;
+    padding-top: 18px;
+    padding-left: 20px;
+   
+   
+}
+
+#homelink {
+    text-decoration: none;  
+    font-size: 1.5em;
+    font-weight: bold;
+ 
+}
+
+
+.navbar {
+    display: inline;
+    float: right;
+    position: relative;
+    height: 40px;
+    margin: 0px;
+    padding-top: 20px;
+    padding-right: 20px;
+
+
+}
+
+#navlist {
+    list-style-type: none;
+    margin: 0;
+    
+    
+}
+
+#navlist > li {
+    display: inline;
+    margin: 0px 0px 0px 20px;
+ 
+}
+
+#navlist > li > a {
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.25em;
+       
+}
+
+
+.sidebody {
+    background-color: #5E7EA6;
+    margin: auto;
+    padding-bottom: 60px;
+    padding-top: 40px;
+
+}
+
+
+
+.sidefoot {
+    background-color: #2F4F4F;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;  
+    margin-top: 5px;
+    height: 60px;
+
+}
+
+.sidefoot > p {
+    display: inline; 
+    float: right;
+    text-align: right;
+    padding: 0;
+    margin: 20px 20px 0px 0px;
+    font-size: 0.8em;
+ 
+}
+
+h3 {
+    display: relative;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 20px
+    
+
+    
+}
+
+#xhtmltable {
+    display: relative;
+    margin: auto;
+    width: 75%;
+    border-collapse: collapse;
+    border: 2px solid ;
+    border-radius: 10px 10px;
+}
+
+#xhtmltable tr {
+    border-color:#163655;
+    text-align: center;
+    /*border-left-width: 5px;
+    border-right-width: 5px;*/
+  
+}
+
+#t1h1 {
+    width: 100px;
+
+   
+}
+#xhtmltable tbody > tr :nth-child(2){
+     text-align: left; 
+    
+}
+
+
+#t1h3 {
+    width: 50px;
+
+   
+}
+#t1h4 {
+    width: 120px;
+   
+}
+
+#xhtmltable tr > td, th {
+    padding: 2px;
+    border: 1px solid #DCDCDC; 
+
+ 
+}
+
+.fstrow {
+    background-color: #5078aa;
+    
+}
+
+#tablefoot {
+    font-weight: bold;
+}
